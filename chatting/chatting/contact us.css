@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('unsplash.jpg') no-repeat center center fixed;
+}
+
+.contact-container {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contact-details p {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+}
+
+.contact-details p strong {
+    color: white;
+}

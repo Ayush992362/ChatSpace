@@ -1,0 +1,81 @@
+.login-button {
+    width: 100px;
+    background-color: #4CAF50; /* Green background */
+    border: none; 
+    color: white; /* White text */
+    padding: 8px 16px; /* Reduced padding for a smaller button */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Ensures the button is block-level */
+    font-size: 20px; /* Smaller font size */
+    margin: 10px auto; /* Centers the button horizontally */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 20px; /* Slightly smaller rounded corners */
+    transition-duration: 0.4s; /* Smooth transition effect on hover */
+}
+
+.login-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+
+body {
+   
+    font-family: Arial, sans-serif;
+    background: url('unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+   
+}
+.chat-description {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color:white;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list li {
+    display: inline;
+    padding: 14px 20px;
+}
+
+.nav-list li a, .nav-list li .non-clickable {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.nav-list li a:hover {
+    color: white;
+}
+
+.non-clickable {
+    font-size: 30px;
+    font-weight: bold;
+    cursor: default;
+    color: #aaa; /* Optional: Different color to indicate it's not clickable */
+
+}
+
+/* Align the right side items */
+.nav-right {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 200px;
+    display: flex;
+    
+}

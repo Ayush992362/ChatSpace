@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('splash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.vikash {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px; /* Width of the div */
+    height: 300px; /* Height of the div */
+    margin-left: 850px;
+    margin-bottom: 10px;
+    margin-top: -270px;
+    border-radius: 10%; /* Fully rounds the div into an oval */
+    overflow: hidden; /* Ensures content stays within the rounded area */
+    border: 5px solid black; /* Optional: adds a black border around the div */
+}
+
+.vikash img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area */
+   
+}
+
+
+
+
+.login-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #5a58f5;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+   margin-top: -50px;
+    cursor: pointer;
+    transition: background-color 0.4s, transform 0.2s;
+    margin-left: 30px;
+}
+
+
+.login-button:hover {
+    background-color: #4a47d0;
+    transform: scale(1.05);
+}
+
+.icon-container {
+    margin-right: 25px;
+}
+
+.small-icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.login-text {
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+.welcome {
+    margin-left: 10px;
+    color: white;
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.chat-description {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+/* Navigation Styles */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list li {
+    display: inline;
+    padding: 14px 20px;
+}
+
+.nav-list li a, .nav-list li .non-clickable {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.nav-list li a:hover {
+    color: white;
+}
+
+.non-clickable {
+    font-size: 30px;
+    font-weight: bold;
+    cursor: default;
+    color: #aaa;
+}
+
+.nav-right {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 100px;
+    display: flex;
+}
+
+/* Feature Section Styles */
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+}
+
+.feature {
+    flex: 0 1 30%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 1px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 3px;
+}
+
+.feature p {
+    font-size: 1.125em;
+    line-height: 1.4;
+    padding: 0 10px;
+}
+
+
+/* Content Section Styles */
+.custom-row{
+    padding-top: 40px;
+}
+/* Base styles for the section */
+.gr {
+     /* Dark background for contrast */
+    padding-top: 100px; /* Padding at the top */
+  }
+  
+  /* Container for alignment and spacing */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Custom row styling */
+  .custom-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Column styling */
+  .col {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  /* Heading styling */
+  h3 {
+    color: #5a58f5;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraph styling */
+  p {
+    color: #fff; /* White color for text */
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  /* Image styling */
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+  }
+  
+  /* Margin top for rows */
+  .mt-5 {
+    margin-top: 5rem;
+  }
+  

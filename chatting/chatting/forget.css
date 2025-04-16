@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.forget-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #888; /* Darker border color */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #888; /* Darker border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.otp-inputs {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.otp-inputs input {
+    width: 40px; /* Width of each box */
+    height: 50px; /* Height of each box */
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #888; /* Darker border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 5px; /* Margin to reduce space between boxes */
+}
+
+/* Optional: Remove the margin on the last input box */
+.otp-inputs input:last-child {
+    margin-right: 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

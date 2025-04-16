@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation with Friends List and Search -->
+        <div class="sidebar">
+            <!-- Friends Section -->
+            <h2>Friends</h2>
+            <div class="search-section">
+                <input type="text" id="search-bar" placeholder="Search for friends...">
+                <img id="search-icon" class="search-icon" src="search 1.png" alt="Search Icon">
+            </div>
+            
+            <ul id="friends-list">
+                <li data-id="1">Rahul</li>
+                <li data-id="2">Abhishek</li>
+                <li data-id="3">Vikash</li>
+                <li data-id="4">Sonu</li>
+                <li data-id="5">Jassi</li>
+                <li data-id="6">Pradeep</li>
+                <li data-id="7">Harshit</li>
+                <li data-id="8">Nishant</li>
+                <li data-id="9">Chetan</li>
+                <li data-id="10">Yuvraj</li>
+                <li data-id="11">Amit</li>
+                <li data-id="12">Kajal</li>
+                <li data-id="13">Rohit</li>
+                <li data-id="14">Neha</li>
+                <li data-id="15">Arjun</li>
+                
+            </ul>
+        </div>
+
+        <!-- Chat Window -->
+        <div class="chat-window">
+            <!-- Header with additional options -->
+            <div class="chat-header">
+                <h2 id="chat-with">Chatting</h2>
+                
+                <!-- Options: Friend Request, Logout (3 dots) -->
+                <div class="chat-options">
+                    <!-- Friend Request Button with Image Icon -->
+                    <div class="dropdown">
+                        <button id="friend-request-btn">
+                            <img src="friend request.png" alt="Friend Request Icon" class="icon">
+                        </button>
+                        <div class="dropdown-content" id="friend-requests">
+                            <div class="friend-request">
+                                <span class="friend-name"><a href="Arbaj.html">Arbaj Raza</a></span> sent you a friend request.
+                                <div class="friend-action">
+                                    <button class="accept-btn">Accept</button>
+                                    <button class="decline-btn">Ignore</button>
+                                </div>
+                            </div>
+                            <div class="friend-request">
+                                <span class="friend-name"><a href="Ankit.html">Ankit Pahal</a></span> sent you a friend request.
+                                <div class="friend-action">
+                                    <button class="accept-btn">Accept</button>
+                                    <button class="decline-btn">Ignore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Three-dot menu for Logout -->
+                    <div class="dropdown">
+                        <button id="options-button" class="options-btn">⋮</button>
+                        <div class="dropdown-content">
+                            <a href="index.html" id="logout">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+              
+
+            <!-- Messages -->
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be appended here dynamically -->
+            </div>
+
+            <!-- Input Section -->
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Type your message here...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+   
+   
+
+   
+</body>
+</html>
